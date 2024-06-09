@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurul Sınavı Ortalama Hesaplama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kurul Sınavı Ortalama Hesaplama</h1>
+        <form id="examForm">
+            <label for="exam1">Deri ve İskelet Sistemi:</label>
+            <input type="number" id="exam1" name="exam1" step="0.01" required>
+            <label for="exam2">Nöroloji:</label>
+            <input type="number" id="exam2" name="exam2" step="0.01" required>
+            <label for="exam3">Kardiyoloji:</label>
+            <input type="number" id="exam3" name="exam3" step="0.01" required>
+            <label for="exam4">Solunum Sistemi:</label>
+            <input type="number" id="exam4" name="exam4" step="0.01" required>
+            <label for="exam5">Sindirim Sistemi:</label>
+            <input type="number" id="exam5" name="exam5" step="0.01" required>
+            <label for="exam6">Üriner Sistem:</label>
+            <input type="number" id="exam6" name="exam6" step="0.01" required>
+            <label for="exam7">Endokrin ve Üreme Sistemi:</label>
+            <input type="number" id="exam7" name="exam7" step="0.01" required>
+            <h2>Final Sınavı Bileşenleri</h2>
+            <label for="anatomyOral">Anatomi Sözlü Sınavı (%12.5):</label>
+            <input type="number" id="anatomyOral" name="anatomyOral" step="0.01" required>
+            <label for="anatomyLab">Anatomi Lab Ortalaması (%12.5):</label>
+            <input type="number" id="anatomyLab" name="anatomyLab" step="0.01" required>
+            <label for="physiologyOral">Fizyoloji Sözlü Sınavı (%15):</label>
+            <input type="number" id="physiologyOral" name="physiologyOral" step="0.01" required>
+            <label for="histologyOral">Histoloji Sözlü Sınavı (%10):</label>
+            <input type="number" id="histologyOral" name="histologyOral" step="0.01" required>
+            <label for="tusQuestions">TUS Çıkmış Soruları (%10):</label>
+            <input type="number" id="tusQuestions" name="tusQuestions" step="0.01" required>
+            <label for="theoreticalExam">Teorik Sınav (%50):</label>
+            <input type="number" id="theoreticalExam" name="theoreticalExam" step="0.01" required>
+            <button type="submit">Ortalama Hesapla</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
