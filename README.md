@@ -1,0 +1,1 @@
+# Ankara-Medipol-niversitesi-Ortalama-Hesaplama
